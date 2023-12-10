@@ -1,0 +1,17 @@
+/* CSS */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+#animated-text {
+    white-space: nowrap
+    overflow: hidden;
+    font-size: 20px;
+    display: flex;
+    animation: typing 5s steps(40) forwards;
+}
